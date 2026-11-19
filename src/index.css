@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+  background: radial-gradient(circle at top, #0f172a 0%, #020617 45%, #000000 100%);
+  color: #e2e8f0;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.35);
+  color: #f8fafc;
+}
+
+/* Neon utility helpers */
+.neon-text {
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.7), 0 0 18px rgba(217, 70, 239, 0.45);
+}
+
+.neon-border {
+  box-shadow: 0 0 0 1px rgba(34, 211, 238, 0.35), 0 0 18px rgba(34, 211, 238, 0.15);
+}
+
+.neon-card {
+  box-shadow: 0 0 0 1px rgba(217, 70, 239, 0.2), 0 10px 30px rgba(2, 6, 23, 0.7);
+}
